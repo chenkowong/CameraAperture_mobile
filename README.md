@@ -11,3 +11,14 @@ Flutter的移动端相机快门动画封装
 这个[链接](https://medium.com/jet-set-digital/camera-aperture-animation-flutter-ft-custompainter-animatedbuilder-clipoval-3ab296e7de58)可以看到更多他的动画原理，值得观摩。
 
 ![](./demo.gif)
+
+---
+
+核心原理：
+
+ - aperture.dart
+   定义ApertureBladePainter类的属性和方法
+ - aperture_blades.dart
+   计算动画的逻辑和封装
+ - aperture_blade_painter.dart
+   引用ApertureBladePainter类和外观布局
